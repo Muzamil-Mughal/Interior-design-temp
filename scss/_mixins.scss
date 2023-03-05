@@ -1,0 +1,42 @@
+@mixin heading{
+    color: $red;
+    font-weight: 500;
+    box-sizing: border-box;
+    font-size: 45px;
+    padding: 10px;
+    // padding-top: 90px;
+
+}
+@mixin line{
+    border-bottom: 8px solid $red;
+    border-radius: 4px;
+ display: block;
+    width: 60px;
+    padding: 10px;
+}
+@mixin li-head{
+    font-size: 20px;
+    color: $txt-clr;
+    background-color: $gray;
+    padding: 32px; 
+}
+@mixin li{
+    list-style-type: none;
+    background-color: $l8-gray;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+@mixin navbar{
+   color: $txt-clr;
+   position: fixed !important;
+   width: 22vw !important;
+   height: 100% !important;
+   background-color: $red;
+   padding: 32px;
+   height: 100%vh !important;
+   
+}
+@mixin form-field{
+    width: 100%;
+    padding: 8px;
+}
